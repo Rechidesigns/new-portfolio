@@ -13,7 +13,7 @@ const skills = [
 ];
 
 const facts = [
-  { icon: Award, label: '5+ Years Experience', value: 'Senior Level' },
+  { icon: Award, label: '6+ Years Experience', value: 'Senior Level' },
   { icon: Code2, label: 'Major Projects', value: '10+ Completed' },
   { icon: Brain, label: 'AI Integrations', value: '3+ Systems' },
   { icon: Users, label: 'Team Leadership', value: '10+ Developers' }
@@ -49,7 +49,7 @@ export const About: React.FC = () => {
               
               <div className="text-center lg:text-left">
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                  Senior Backend Engineer with 5+ years of experience architecting scalable systems and integrating cutting-edge AI solutions. 
+                  Senior Backend Engineer with 6+ years of experience architecting scalable systems and integrating cutting-edge AI solutions. 
                   Specialized in building robust APIs, microservices, and intelligent automation systems that power enterprise applications.
                 </p>
                 <p className="text-gray-400 leading-relaxed">

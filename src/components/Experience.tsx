@@ -5,9 +5,9 @@ const experiences = [
   {
     id: 1,
     company: 'Avetium Consult',
-    position: 'Senior Backend Engineer & Integration Lead',
+    position: 'Senior Backend Engineer',
     location: 'Nigeria - Hybrid',
-    period: '2022 - Present',
+    period: '2024 - Present',
     type: 'Full-time',
     description: 'Leading backend architecture and integration initiatives for enterprise clients.',
     achievements: [
@@ -24,7 +24,7 @@ const experiences = [
     company: 'AI Auction Solution',
     position: 'Lead Developer & System Architect',
     location: 'United Kindome - Remote',
-    period: '2020 - 2022',
+    period: '2023 - 2024',
     type: 'Full-time',
     description: 'Developed scalable auction platform with real-time bidding and AI-powered recommendation systems.',
     achievements: [
@@ -41,7 +41,7 @@ const experiences = [
     company: 'Limestone Technologies',
     position: 'Backend Developer',
     location: 'Nigeria - Hybrid',
-    period: '2018 - 2020',
+    period: '2021 - 2023',
     type: 'Full-time',
     description: 'Developed enterprise APIs for proptech services applications using Kubernates.',
     achievements: [
@@ -58,7 +58,7 @@ const experiences = [
     company: 'Univelcity',
     position: 'Backend Developer',
     location: 'Nigeria - Onsite',
-    period: '2016 - 2018',
+    period: '2018 - 2021',
     type: 'Full-time',
     description: 'Developed web applications and APIs for startup clients across various industries.',
     achievements: [
