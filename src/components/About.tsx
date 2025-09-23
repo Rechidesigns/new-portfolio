@@ -13,7 +13,7 @@ const skills = [
 ];
 
 const facts = [
-  { icon: Award, label: '5+ Years Experience', value: 'Senior Level' },
+  { icon: Award, label: '6+ Years Experience', value: 'Senior Level' },
   { icon: Code2, label: 'Major Projects', value: '10+ Completed' },
   { icon: Brain, label: 'AI Integrations', value: '3+ Systems' },
   { icon: Users, label: 'Team Leadership', value: '10+ Developers' }

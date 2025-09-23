@@ -4,23 +4,23 @@ import { ExternalLink, Github, ArrowRight, Zap, Shield, Bot } from 'lucide-react
 const projects = [
   {
     id: 1,
-    title: 'AI-Powered Enterprise API Gateway',
-    description: 'Scalable API gateway with intelligent routing, rate limiting, and AI-driven analytics for enterprise clients.',
+    title: 'Enterprise Payroll Management System',
+    description: 'Scalable API gateway with intelligent routing, rate limiting, and analytics for enterprise clients.',
     image: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['C#', '.NET Core', 'Redis', 'PostgreSQL', 'Docker'],
     category: 'Enterprise',
     icon: Zap,
     github: '#',
     demo: '#',
-    highlights: ['99.9% uptime', '10M+ requests/day', 'AI-driven insights']
+    highlights: ['99.9% uptime', '10K+ requests/day', 'Finance and Payroll insights dashboard']
   },
   {
     id: 2,
-    title: 'Intelligent Document Processing System',
-    description: 'AI agent integration for automated document analysis, extraction, and workflow automation using LangChain and RAG.',
+    title: 'Intelligent Finace Document Processing System, Chatbot, and code generation agent',
+    description: 'AI agent integration for automated finance analysis, code generating and chatbot agent, using LangChain and Ollama and llama3.',
     image: 'https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['Python', 'FastAPI', 'LangChain', 'OpenAI', 'PostgreSQL'],
-    category: 'AI Integration',
+    technologies: ['Python', 'FastAPI', 'LangChain', 'OpenAI', 'PostgreSQL', 'Ollama', 'Llama3'],
+    category: 'AI Agent Integration',
     icon: Bot,
     github: '#',
     demo: '#',
@@ -28,10 +28,10 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Microservices Security Platform',
-    description: 'Comprehensive security platform with OAuth 2.0, JWT management, and distributed authentication for microservices.',
+    title: 'Microservices for Proptech solution',
+    description: 'Comprehensive security platform with RabbitMQ, JWT, Stripe and distributed Mommas for the microservice powering My Limestone.',
     image: 'https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['C#', '.NET Core', 'Azure', 'Docker', 'Kubernetes'],
+    technologies: ['C#', '.NET Core', 'Azure', 'Docker', 'Kubernetes', 'RabbitMQ', 'JWT', 'Stripe'],
     category: 'Security',
     icon: Shield,
     github: '#',
@@ -40,15 +40,15 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Real-time Analytics Engine',
-    description: 'High-performance data processing engine with real-time streaming and predictive analytics capabilities.',
+    title: 'Fintech Using Stable coin and Fiat for global remitance and payment system',
+    description: 'High-performance transaction processing engine with Web 3 and Stable coin for fast transaction.',
     image: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['Python', 'Django', 'Apache Kafka', 'InfluxDB', 'AWS'],
+    technologies: ['Python', 'Django', 'Railway app', 'Redis', 'AWS', 'firebase', 'wesockets', 'RabbitMQ', 'Celery', "PostgreSQL"],
     category: 'Data Engineering',
     icon: Zap,
     github: '#',
     demo: '#',
-    highlights: ['Real-time processing', 'ML predictions', 'Scalable architecture']
+    highlights: ['Real-time transaction processing', 'Stable coin and fiat global money movement', 'scalable architecture', 'web 3 integration']
   }
 ];
 
