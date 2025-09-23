@@ -107,7 +107,7 @@ export const Contact: React.FC = () => {
                   {
                     icon: Phone,
                     label: 'Phone',
-                    value: '+23460251019',
+                    value: '+2348160251019',
                     href: 'tel:+2348160251019'
                   },
                   {
