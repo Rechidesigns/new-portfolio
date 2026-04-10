@@ -3,11 +3,30 @@ import { MapPin, Calendar, TrendingUp, Users, Award, Target } from 'lucide-react
 
 const experiences = [
   {
+    id: 0,
+    company: 'Oxygen X Finance Company Limited',
+    position: 'Engineer Manager',
+    location: 'Nigeria - Onsite',
+    period: 'Aug 2024 - Present',
+    type: 'Full-time',
+    description: 'Led the design and scaling of lending and payment microservices, enabling seamless loan origination, disbursement, and repayment flows, improving transaction success rates and reducing failure incidents across partner integrations.',
+    achievements: [
+      'Led the design and scaling of lending and payment microservices, enabling seamless loan origination, disbursement, and repayment flows, improving transaction success rates and reducing failure incidents across partner integrations.',
+      'Architected and implemented resilient integrations with banking and payment infrastructure (e.g., NIBSS mandates, direct debit systems, and third-party payment gateways), ensuring reliable fund movement and reconciliation across distributed systems.',
+      'Drove system reliability and observability initiatives, introducing centralized logging, monitoring, and alerting, significantly improving incident response time and reducing production downtime.',
+      'Led cross-functional delivery across engineering, product, and external banking teams, ensuring secure, compliant, and scalable API integrations for external partners consuming lending services.',
+      'Improved data consistency and reconciliation processes across financial services by implementing audit trails, idempotency strategies, and transaction tracking, reducing discrepancies and supporting financial reporting accuracy.',
+      'Mentored and scaled backend engineering teams, enforcing best practices in system design, code quality, and deployment pipelines, increasing team delivery velocity and system stability.'
+    ],
+    technologies: ['Java', 'Spring Boot', 'C#', 'ASP.NET Core', 'NodeJS', 'Redis', 'Azure', 'Django', 'PostgreSQL', 'Docker', 'JWT', 'AWS', 'Git', 'ActiveMQ', 'Agile'],
+    icon: Users
+  },
+  {
     id: 1,
     company: 'Avetium Consult',
     position: 'Senior Backend Engineer',
     location: 'Nigeria - Hybrid',
-    period: '2024 - Present',
+    period: '2024 - 2026',
     type: 'Full-time',
     description: 'Leading backend architecture and integration initiatives for enterprise clients.',
     achievements: [
