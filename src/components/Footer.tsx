@@ -21,8 +21,8 @@ export const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-gray-400 leading-relaxed max-w-md">
-              Senior Backend Engineer & AI Agent Integration Specialist. 
-              Building scalable systems and intelligent solutions that power the future.
+              Senior Backend Engineer / Engineering Manager.
+              Building scalable systems and intelligent solutions that power the future of financial technology.
             </p>
             <div className="flex gap-4 mt-6">
               {[
@@ -81,7 +81,7 @@ export const Footer: React.FC = () => {
               <Heart className="w-4 h-4 text-red-500 fill-current" />
               <span>by Alerechi Ordu</span>
             </div>
-            
+
             <div className="text-gray-400 text-sm">
               © {new Date().getFullYear()} All rights reserved.
             </div>

@@ -17,9 +17,9 @@ export const Contact: React.FC = () => {
     setIsSubmitting(true);
 
     // EmailJS config
-  const serviceId = 'service_6mum3ey';
-  const templateId = 'template_6b4n32w';
-  const publicKey = 'iqedaGVJ7fG5jGxKr';
+    const serviceId = 'service_6mum3ey';
+    const templateId = 'template_6b4n32w';
+    const publicKey = 'iqedaGVJ7fG5jGxKr';
 
     try {
       await emailjs.send(
@@ -91,8 +91,8 @@ export const Contact: React.FC = () => {
               <div>
                 <h3 className="text-2xl font-bold text-white mb-6">Get In Touch</h3>
                 <p className="text-gray-400 text-lg leading-relaxed mb-8">
-                  I'm always interested in discussing new opportunities, innovative projects, 
-                  and how I can help bring your backend and AI integration ideas to life.
+                  I'm always interested in discussing new opportunities, innovative projects,
+                  and how I can help bring your business Ideas ideas to life.
                 </p>
               </div>
 
@@ -172,7 +172,7 @@ export const Contact: React.FC = () => {
                       placeholder="Your name"
                     />
                   </div>
-                  
+
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
                       Email *
@@ -203,6 +203,7 @@ export const Contact: React.FC = () => {
                     className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors duration-300"
                   >
                     <option value="">Select a subject</option>
+                    <option value="Engineering Manager Inquiry">Hiring For Engineering Manager</option>
                     <option value="Hiring For Backend">Hiring For Backend</option>
                     <option value="New Project Inquiry">New Project Inquiry</option>
                     <option value="Consulting Services">Consulting Services</option>
