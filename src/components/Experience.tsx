@@ -24,7 +24,7 @@ const experiences = [
   {
     id: 1,
     company: 'Avetium Consult',
-    position: 'Senior Backend Engineer',
+    position: 'Lead Software Engineer Backend',
     location: 'Nigeria - Hybrid',
     period: '2024 - 2026',
     type: 'Full-time',
