@@ -3,6 +3,18 @@ import { ExternalLink, Github, ArrowRight, Zap, Shield, Bot } from 'lucide-react
 
 const projects = [
   {
+    id: 0,
+    title: 'Lending & Payment Microservices Platform',
+    description: 'Led design and scaling of resilient lending and payment microservices with banking integrations, enabling seamless loan origination, disbursement, and repayment flows across partner integrations.',
+    image: 'https://images.pexels.com/photos/3943716/pexels-photo-3943716.jpeg?auto=compress&cs=tinysrgb&w=800',
+    technologies: ['Java', 'Spring Boot', 'C#', 'ASP.NET Core', 'NodeJS', 'Redis', 'Azure', 'PostgreSQL', 'Docker', 'ActiveMQ', 'JWT'],
+    category: 'Enterprise',
+    icon: Zap,
+    github: '#',
+    demo: '#',
+    highlights: ['Seamless loan origination & disbursement', 'Banking & payment gateway integrations (NIBSS, direct debit)', 'Centralized logging, monitoring & alerting', 'Audit trails & transaction reconciliation']
+  },
+  {
     id: 1,
     title: 'Enterprise Payroll Management System',
     description: 'Scalable API gateway with intelligent routing, rate limiting, and analytics for enterprise clients.',
@@ -58,8 +70,8 @@ export const Projects: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
-  const filteredProjects = selectedCategory === 'All' 
-    ? projects 
+  const filteredProjects = selectedCategory === 'All'
+    ? projects
     : projects.filter(project => project.category === selectedCategory);
 
   return (
@@ -82,11 +94,10 @@ export const Projects: React.FC = () => {
               <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
-                className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
-                  selectedCategory === category
-                    ? 'bg-gradient-to-r from-cyan-500 to-blue-500 text-white shadow-lg shadow-cyan-500/25'
-                    : 'bg-slate-700 text-gray-300 hover:bg-slate-600 hover:text-white'
-                }`}
+                className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${selectedCategory === category
+                  ? 'bg-gradient-to-r from-cyan-500 to-blue-500 text-white shadow-lg shadow-cyan-500/25'
+                  : 'bg-slate-700 text-gray-300 hover:bg-slate-600 hover:text-white'
+                  }`}
               >
                 {category}
               </button>
@@ -141,7 +152,7 @@ export const Projects: React.FC = () => {
                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors duration-300">
                       {project.title}
                     </h3>
-                    
+
                     <p className="text-gray-400 mb-4 leading-relaxed">
                       {project.description}
                     </p>
