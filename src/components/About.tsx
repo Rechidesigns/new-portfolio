@@ -55,8 +55,8 @@ export const About: React.FC = () => {
                   Specialized in building robust APIs, microservices, and intelligent automation systems that power enterprise applications.
                 </p>
                 <p className="text-gray-400 leading-relaxed">
-                  My expertise spans from traditional backend technologies like C# and Python to modern AI agent integration,
-                  helping organizations leverage the power of artificial intelligence to streamline operations and enhance user experiences.
+                  My expertise spans from traditional backend technologies like C#, Java and Python in mordern payment integration,
+                  helping organizations build better systerms with better user experiences.
                 </p>
               </div>
             </div>
