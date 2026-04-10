@@ -2,11 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { ChevronDown, Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 
 const specialties = [
-  "C# Developer",
-  "Python Engineer", 
-  "AI Agent Integrator",
-  "Backend Architect",
-  "API Specialist"
+  "Building & Scaling Fintech Platforms",
+  "Backend & Platform Architecture",
+  "Lending & Payment Systems",
+  "Distributed Systems at Scale",
+  "API Ecosystems & Integrations",
+  "Financial Systems Reliability",
+  "High-Impact Engineering Teams"
 ];
 
 export const Hero: React.FC = () => {
@@ -74,16 +76,16 @@ export const Hero: React.FC = () => {
               Alerechi Ordu
             </span>
           </h1>
-          
+
           <div className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-4 h-10">
-            Senior <span className="text-cyan-400 font-semibold">{displayText}</span>
+            Specialised In <span className="text-cyan-400 font-semibold">{displayText}</span>
             <span className="animate-pulse">|</span>
           </div>
-          
+
           <p className="text-lg sm:text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Engineering Scalable Systems & Intelligent AI Integrations
+            Engineering Scalable Systems & Payment Integrations
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <a href="#projects" className="group bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25">
               <span className="flex items-center gap-2">
@@ -91,7 +93,7 @@ export const Hero: React.FC = () => {
                 <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
               </span>
             </a>
-            
+
             <a href="#contact" className="group border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900 font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105">
               <span className="flex items-center gap-2">
                 <Mail className="w-5 h-5" />
@@ -99,7 +101,7 @@ export const Hero: React.FC = () => {
               </span>
             </a>
           </div>
-          
+
           <div className="flex justify-center space-x-6">
             {[
               { icon: Github, href: "https://github.com/Rechidesigns", label: "GitHub" },
@@ -120,7 +122,7 @@ export const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <ChevronDown className="w-8 h-8 text-cyan-400" />
       </div>

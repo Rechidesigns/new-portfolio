@@ -84,7 +84,7 @@ export const Experience: React.FC = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              8+ years of building scalable systems and leading development teams
+              10 years of building scalable systems and leading development teams
             </p>
           </div>
 
@@ -103,7 +103,7 @@ export const Experience: React.FC = () => {
                   >
                     {/* Timeline Node */}
                     <div className="absolute left-6 top-6 w-4 h-4 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full border-4 border-slate-900 z-10"></div>
-                    
+
                     {/* Content Card */}
                     <div className="bg-slate-800/80 rounded-xl p-6 border border-slate-700 hover:border-cyan-400/50 transition-all duration-500 group">
                       <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-4">
@@ -124,7 +124,7 @@ export const Experience: React.FC = () => {
                             </div>
                           </div>
                         </div>
-                        
+
                         <div className="flex flex-col items-end">
                           <div className="flex items-center gap-2 text-gray-400 mb-2">
                             <Calendar className="w-4 h-4" />

@@ -5,7 +5,7 @@ const skillCategories = [
   {
     title: 'Languages & Frameworks',
     icon: Code2,
-    skills: ['C#', '.NET Core', 'Python', 'Django REST Framework', 'FastAPI', 'Flask', 'JavaScript', 'Express.JS'],
+    skills: ['C#', '.NET Core', 'Python', 'Django REST Framework', 'FastAPI', 'Flask', "Java & Spring Boot", 'JavaScript', 'Express.JS'],
     gradient: 'from-blue-500 to-cyan-500'
   },
   {
@@ -71,7 +71,7 @@ export const Skills: React.FC = () => {
                     {title}
                   </h3>
                 </div>
-                
+
                 <div className="flex flex-wrap gap-2">
                   {skills.map((skill) => (
                     <span

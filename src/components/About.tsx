@@ -3,8 +3,10 @@ import { Code2, Brain, Cloud, Database, Award, Users } from 'lucide-react';
 
 const skills = [
   { name: 'C# & .NET Core', category: 'backend' },
+  { name: 'JAVA & Spring Boot', category: 'backend' },
   { name: 'Python & Django', category: 'backend' },
   { name: 'FastAPI & Flask', category: 'backend' },
+  { name: 'Node.js', category: 'backend' },
   { name: 'AI Agent Integration', category: 'ai' },
   { name: 'LangChain & RAG', category: 'ai' },
   { name: 'AWS & Azure', category: 'cloud' },
@@ -13,10 +15,10 @@ const skills = [
 ];
 
 const facts = [
-  { icon: Award, label: '6+ Years Experience', value: 'Senior Level' },
-  { icon: Code2, label: 'Major Projects', value: '10+ Completed' },
-  { icon: Brain, label: 'AI Integrations', value: '15+ Systems' },
-  { icon: Users, label: 'Team Leadership', value: '10+ Developers' }
+  { icon: Award, label: '10+ Years Experience', value: 'Management Level' },
+  { icon: Code2, label: 'Major Projects', value: '17+ Completed' },
+  { icon: Brain, label: 'AI Integrations', value: '10+ Systems' },
+  { icon: Users, label: 'Team Leadership', value: '15+ Developers' }
 ];
 
 export const About: React.FC = () => {
@@ -31,7 +33,7 @@ export const About: React.FC = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Passionate about building scalable systems and integrating intelligent AI solutions
+              Passionate about building scalable systems and integrating intelligent Payment solutions
             </p>
           </div>
 
@@ -46,14 +48,14 @@ export const About: React.FC = () => {
                   />
                 </div>
               </div>
-              
+
               <div className="text-center lg:text-left">
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                  Senior Backend Engineer with 6+ years of experience architecting scalable systems and integrating cutting-edge AI solutions. 
+                  Backend Engineering Manager with 10 years of experience architecting scalable systems and integrating cutting-edge Financial solutions.
                   Specialized in building robust APIs, microservices, and intelligent automation systems that power enterprise applications.
                 </p>
                 <p className="text-gray-400 leading-relaxed">
-                  My expertise spans from traditional backend technologies like C# and Python to modern AI agent integration, 
+                  My expertise spans from traditional backend technologies like C# and Python to modern AI agent integration,
                   helping organizations leverage the power of artificial intelligence to streamline operations and enhance user experiences.
                 </p>
               </div>
@@ -76,12 +78,11 @@ export const About: React.FC = () => {
                   {skills.map((skill) => (
                     <span
                       key={skill.name}
-                      className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 cursor-pointer ${
-                        skill.category === 'backend' ? 'bg-blue-500/20 text-blue-300 border border-blue-400/30 hover:bg-blue-500/30' :
+                      className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 cursor-pointer ${skill.category === 'backend' ? 'bg-blue-500/20 text-blue-300 border border-blue-400/30 hover:bg-blue-500/30' :
                         skill.category === 'ai' ? 'bg-purple-500/20 text-purple-300 border border-purple-400/30 hover:bg-purple-500/30' :
-                        skill.category === 'cloud' ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-400/30 hover:bg-cyan-500/30' :
-                        'bg-green-500/20 text-green-300 border border-green-400/30 hover:bg-green-500/30'
-                      }`}
+                          skill.category === 'cloud' ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-400/30 hover:bg-cyan-500/30' :
+                            'bg-green-500/20 text-green-300 border border-green-400/30 hover:bg-green-500/30'
+                        }`}
                     >
                       {skill.name}
                     </span>
